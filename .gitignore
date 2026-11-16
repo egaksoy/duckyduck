@@ -1,0 +1,12 @@
+# kişisel veriler: notlar, ayarlar, doğum günü, durum
+veri/
+
+# tek kişiye özel eklentiler (sadece o kişinin kurulum paketine girer)
+ozel/
+
+# hazırlanan kurulum paketleri
+dist/
+build/
+
+__pycache__/
+*.pyc

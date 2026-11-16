@@ -1,0 +1,33 @@
+EKLENTİLER
+==========
+
+Bu klasöre konan her .py dosyası ördek açılırken yüklenir.
+Adı "_" ile başlayan dosyalar yüklenmez (örnekler için).
+
+Bir eklenti şu fonksiyonlardan istediklerini yazabilir:
+
+    baslat(app)                 ördek açılınca bir kez
+    ruh_hali(app, eski, yeni)   ruh hali değişince ("normal", "focus", "watch", "music",
+                                "social", "game", "night", "sleep")
+    tiklandi(app)               ördeğe tıklanınca
+    her_dakika(app)             dakikada bir
+    menu_ogeleri(app)           sağ tık menüsüne düğme ekler: [("🎈", "Yazı", fonksiyon), ...]
+    poz(app, pose)              her karede ördeğin duruşunu değiştirebilir;
+                                pose["ekstra"] = [cizim_fonksiyonu] ile ördeğe çizim eklenir
+                                (fonksiyon(p, bilgi) ördeğin kendi koordinatlarında çağrılır)
+
+    app.duck.scripted = True    ördek kendi kendine dolaşmayı bırakır, eklenti yönetir
+
+İşe yarayan şeyler:
+
+    app.bildirim("metin")       saatin yanında küçük bir bildirim gösterir
+    app.duck.hearts(3)          ördeğin üstünde kalpler
+    app.duck.spawn("🌟", emoji=True)   ördeğin üstünde bir emoji uçurur
+    app.duck.jump(-300, hops=2) zıplar
+    app.duck.quack()            vaklar
+    app.state["anahtar"]        kalıcı küçük kayıtlar (veri/durum.json)
+
+Eklenti hata verirse ördek bozulmaz; hata veri/eklenti_hatalari.log dosyasına yazılır.
+
+Özel (tek kişiye) eklentiler bu klasöre değil, ozel/<kişi>/ klasörüne konur.
+O klasör GitHub'a gitmez; "paylas.bat <kişi>" ile o kişinin kurulum paketine eklenir.

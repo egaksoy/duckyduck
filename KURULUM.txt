@@ -1,0 +1,25 @@
+DUCKYDUCK — KURULUM
+===================
+
+1) Bu klasörü (zip'ten çıkardıktan sonra) kalıcı bir yere koy,
+   örneğin Masaüstü veya Belgeler. Sonra yerini değiştirmesen iyi olur.
+
+2) "kur.bat" dosyasına çift tıkla.
+   - Python yoksa kurmayı teklif eder.
+   - Ördeğin ihtiyaç duyduğu parçaları indirir (birkaç dakika).
+   - Sohbet için ücretsiz yapay zekâyı (Ollama) kurmak isteyip istemediğini sorar.
+   - Bitince ördek ekrana gelir ve doğum gününü sorar.
+
+3) Bilgisayar her açıldığında ördek kendiliğinden ekrana gelir.
+   İstemezsen: saatin yanındaki ördek simgesine sağ tıkla → "Bilgisayarla başlasın"
+   işaretini kaldır. Elle açmak için "baslat.bat" yeterli.
+
+KULLANIM
+- Çağırmak:        ekranda istediğin yere SAĞ tuşla 1 saniye basılı tut
+- Menü:            ördeğe sağ tıkla (notlar, yem, odak, sohbet, yavru, kıyafet…)
+- Sohbet:          ördeğe tıkla
+- Taşımak:         ördeği sürükleyip bırak (bir pencerenin üstüne de bırakabilirsin)
+
+Notların ve ayarların sadece senin bilgisayarında, bu klasörün içindeki "veri" klasöründe durur.
+
+"Windows bilgisayarınızı korudu" uyarısı çıkarsa: "Ek bilgi" → "Yine de çalıştır".
