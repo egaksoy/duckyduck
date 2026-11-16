@@ -27,6 +27,7 @@
 - **Kıyafetler:** mevsime göre atkı, bere, çiçek, güneş gözlüğü; doğum gününde parti şapkası.
 - **Odak sayacı:** 25 dakikalık odak süresi, bitince kutlama.
 - **Sohbet:** bilgisayarında ücretsiz çalışan bir yapay zekâyla ([Ollama](https://ollama.com)) ördekle konuşabilirsin.
+  Kurulu değilse sohbet kutusundaki **Sohbeti kur** düğmesi Ollama'yı ve modeli tek tıkla kurar (toplam ~5 GB, bir kez).
 - **Eklentiler:** `eklentiler/` klasörüne kendi eklentini yazabilirsin (bkz. `eklentiler/BENIOKU.txt`).
 
 ## Kurulum

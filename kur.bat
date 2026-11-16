@@ -37,7 +37,7 @@ if errorlevel 1 (
 )
 
 echo.
-echo [3/3] Ördekle sohbet için ücretsiz yapay zekâ (Ollama + yaklaşık 3,5 GB model).
+echo [3/3] Ördekle sohbet için ücretsiz yapay zekâ (Ollama + model, toplam yaklaşık 5 GB).
 echo       İstemezsen ördek yine her şeyi yapar, sadece sohbet kutusu cevap vermez.
 choice /C EH /M "Ollama kurulsun mu (E=evet, H=hayır)"
 if errorlevel 2 goto baslat
